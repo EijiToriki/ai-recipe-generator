@@ -3,7 +3,7 @@ frontend:
   phases:
     build:
       commands:
-        - npm run build
+        - vite build
   artifacts:
     baseDirectory: dist
     files:
